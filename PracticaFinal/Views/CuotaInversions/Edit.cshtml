@@ -1,0 +1,59 @@
+﻿@model PracticaFinal.Models.CuotaInversion
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>CuotaInversion</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CodCuota" />
+            <div class="form-group">
+                <label asp-for="FechaPlanificada" class="control-label"></label>
+                <input asp-for="FechaPlanificada" class="form-control" />
+                <span asp-validation-for="FechaPlanificada" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Monto" class="control-label"></label>
+                <input asp-for="Monto" class="form-control" />
+                <span asp-validation-for="Monto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaRealizada" class="control-label"></label>
+                <input asp-for="FechaRealizada" class="form-control" />
+                <span asp-validation-for="FechaRealizada" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CodComprobante" class="control-label"></label>
+                <input asp-for="CodComprobante" class="form-control" />
+                <span asp-validation-for="CodComprobante" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdInversion" class="control-label"></label>
+                <select asp-for="IdInversion" class="form-control" asp-items="ViewBag.IdInversion"></select>
+                <span asp-validation-for="IdInversion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoTransaccion" class="control-label"></label>
+                <select asp-for="TipoTransaccion" class="form-control" asp-items="ViewBag.TipoTransaccion"></select>
+                <span asp-validation-for="TipoTransaccion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

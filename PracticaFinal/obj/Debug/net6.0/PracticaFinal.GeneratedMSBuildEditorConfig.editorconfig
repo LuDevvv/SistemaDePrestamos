@@ -1,0 +1,165 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PracticaFinal
+build_property.RootNamespace = PracticaFinal
+build_property.ProjectDir = c:\Users\ZHX\Downloads\PracticaFinal\PracticaFinal\PracticaFinal\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\ZHX\Downloads\PracticaFinal\PracticaFinal\PracticaFinal
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/CuotaInversions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VvdGFJbnZlcnNpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/CuotaInversions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VvdGFJbnZlcnNpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/CuotaInversions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VvdGFJbnZlcnNpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/CuotaInversions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VvdGFJbnZlcnNpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/CuotaInversions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VvdGFJbnZlcnNpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/CuotaPrestamoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VvdGFQcmVzdGFtb2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/CuotaPrestamoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VvdGFQcmVzdGFtb2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/CuotaPrestamoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VvdGFQcmVzdGFtb2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/CuotaPrestamoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VvdGFQcmVzdGFtb2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/CuotaPrestamoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VvdGFQcmVzdGFtb2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/Inversiones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXJzaW9uZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/Inversiones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXJzaW9uZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/Inversiones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXJzaW9uZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/Inversiones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXJzaW9uZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/Inversiones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXJzaW9uZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/InversionGarantiums/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXJzaW9uR2FyYW50aXVtc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/InversionGarantiums/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXJzaW9uR2FyYW50aXVtc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/InversionGarantiums/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXJzaW9uR2FyYW50aXVtc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/InversionGarantiums/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXJzaW9uR2FyYW50aXVtc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/InversionGarantiums/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXJzaW9uR2FyYW50aXVtc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/Prestamoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/Prestamoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/Prestamoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/Prestamoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/Prestamoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/PrestamoGarantiums/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9HYXJhbnRpdW1zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/PrestamoGarantiums/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9HYXJhbnRpdW1zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/PrestamoGarantiums/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9HYXJhbnRpdW1zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/PrestamoGarantiums/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9HYXJhbnRpdW1zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/PrestamoGarantiums/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9HYXJhbnRpdW1zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/ZHX/Downloads/PracticaFinal/PracticaFinal/PracticaFinal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hdxb7ozevo

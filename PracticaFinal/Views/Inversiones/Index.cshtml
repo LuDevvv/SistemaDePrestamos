@@ -1,0 +1,59 @@
+﻿@model IEnumerable<PracticaFinal.Models.Inversione>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Monto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaInicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaFinal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Interes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCuentaNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Monto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaInicio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaFinal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Interes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCuentaNavigation.IdCuenta)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdInversion">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdInversion">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdInversion">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
