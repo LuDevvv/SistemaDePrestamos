@@ -58,14 +58,13 @@ namespace PracticaFinal.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Idprestamo,Monto,FechaAprobacion,FechaInicio,FechaFinal,Interes,IdCliente")] Prestamo prestamo)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(prestamo);
+            
+             _context.Prestamos.Add(prestamo);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
+         
             ViewData["IdCliente"] = new SelectList(_context.Clientes, "Cedula", "Cedula", prestamo.IdCliente);
-            return View(prestamo);
+            return View(_context.Prestamos.ToArrayAsync());
         }
 
         // GET: Prestamoes/Edit/5
@@ -97,11 +96,9 @@ namespace PracticaFinal.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
                 try
                 {
-                    _context.Update(prestamo);
+                    _context.Prestamos.Update(prestamo);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -116,7 +113,7 @@ namespace PracticaFinal.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
-            }
+            
             ViewData["IdCliente"] = new SelectList(_context.Clientes, "Cedula", "Cedula", prestamo.IdCliente);
             return View(prestamo);
         }

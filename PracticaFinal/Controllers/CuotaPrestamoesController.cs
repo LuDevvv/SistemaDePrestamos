@@ -60,12 +60,11 @@ namespace PracticaFinal.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CodCuota,FechaPlanificada,Monto,FechaRealizada,CodComprobante,IdPrestamo,TipoTransaccion")] CuotaPrestamo cuotaPrestamo)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(cuotaPrestamo);
+           
+                _context.CuotaPrestamos.Add(cuotaPrestamo);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
+          
             ViewData["IdPrestamo"] = new SelectList(_context.Prestamos, "Idprestamo", "Idprestamo", cuotaPrestamo.IdPrestamo);
             ViewData["TipoTransaccion"] = new SelectList(_context.TipoPagos, "IdTipo", "IdTipo", cuotaPrestamo.TipoTransaccion);
             return View(cuotaPrestamo);
@@ -101,11 +100,10 @@ namespace PracticaFinal.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
+            
                 try
                 {
-                    _context.Update(cuotaPrestamo);
+                    _context.CuotaPrestamos.Update(cuotaPrestamo);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -120,7 +118,7 @@ namespace PracticaFinal.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
-            }
+           
             ViewData["IdPrestamo"] = new SelectList(_context.Prestamos, "Idprestamo", "Idprestamo", cuotaPrestamo.IdPrestamo);
             ViewData["TipoTransaccion"] = new SelectList(_context.TipoPagos, "IdTipo", "IdTipo", cuotaPrestamo.TipoTransaccion);
             return View(cuotaPrestamo);

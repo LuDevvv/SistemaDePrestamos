@@ -58,12 +58,11 @@ namespace PracticaFinal.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("IdInversion,Monto,FechaInicio,FechaFinal,Interes,IdCuenta")] Inversione inversione)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(inversione);
+           
+                _context.Inversiones.Add(inversione);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
+         
             ViewData["IdCuenta"] = new SelectList(_context.Cuenta, "IdCuenta", "IdCuenta", inversione.IdCuenta);
             return View(inversione);
         }
